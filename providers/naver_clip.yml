@@ -1,0 +1,12 @@
+---
+- provider_name: Naver Clip
+  provider_url: https://m.naver.com/shorts
+  endpoints:
+  - schemes:
+    - https://naver.me/*
+    - https://m.naver.com/shorts
+    url: https://m.naver.com/shorts/oembed
+    example_urls:
+    - https://m.naver.com/shorts/oembed?url=http%3A%2F%2Flocal.m.naver.com%3A5173%2F%3FmediaId%3DE6195C9A65D5C51011ECF9D37289474B4F81%26serviceType%3DSPORTS
+    discovery: true
+...
